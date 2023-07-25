@@ -1,0 +1,446 @@
+.sidebar-container-component {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(238, 234, 234);
+  justify-content: space-between;
+  align-items: start;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sidebar-addnew-task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.sidebar-addnew-task-button{
+  
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border: "none";
+    align-items: center;
+    justify-content: center;
+    padding: 12px 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-right: 15px;
+  
+}
+
+
+.todo-item-top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.sidebartopcontainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.sidebarbottomcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.sidebarTopButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  background-color: white;
+  border: none;
+  margin-top: 15px;
+
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.content-right-action-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.content-quick-filter-button {
+  margin-right: 30px;
+}
+
+.side-bar-menu-icon-component {
+  width: 20px;
+  height: 20px;
+
+}
+
+.content-right-action-dropdown-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 8px;
+}
+
+.content-right-action-icon {
+  width: 15px;
+  height: 15px;
+}
+
+
+.side-bar-menu-item-component {
+  font-family: sans-serif,Arial, ;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.side-bar-menu-item-container-component {
+  margin-left: 15px;
+  margin-top: 60px;
+}
+
+.content-filter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeTaskText {
+  font-family: sans-serif,Arial, ;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+
+
+p {
+  margin: 0;
+}
+
+.addtaskbutton {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+  margin-right: 15px;
+  
+}
+.addtaskimg {
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+  
+}
+
+.addtasktext {
+  color: white;
+  
+  background-color: black;
+  
+  margin-left: 20px;
+  
+}
+
+.profilecardimg {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.profilecardcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.profilecardbutton {
+  background-color: white;
+  border: none;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+
+.pp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+.ppcardmiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.ppcardmiddletext1 {
+  font-family: sans-serif,Arial, ;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+
+.ppcardmiddletext2 {
+  font-family: sans-serif,Arial, ;
+  font-weight: bolder;
+  font-size: 11px;
+  color: grey;
+}
+
+.contentbutton1 {
+  background-color:white;
+  padding: 10px 12px;
+  border-right: 1px solid rgb(238, 234, 234);
+  border-top: 1px solid rgb(238, 234, 234);
+  border-left: 1px solid rgb(238, 234, 234);
+  border-bottom: 1px solid rgb(238, 234, 234);
+  border-radius: 6px 0 0 6px;
+
+}
+
+
+
+.contentbutton23 {
+  background-color: white;
+  padding: 10px 12px;
+  border-left: 0;
+  border-right: 1px solid rgb(238, 234, 234);
+  border-top: 1px solid rgb(238, 234, 234);
+  border-bottom: 1px solid rgb(238, 234, 234);
+}
+
+.contentbutton4 {
+  background-color: white;
+  padding: 10px 12px;
+  border-left: 0;
+  border-right: 1px solid rgb(238, 234, 234);
+  border-top: 1px solid rgb(238, 234, 234);
+  border-bottom: 1px solid rgb(238, 234, 234);
+  border-radius: 0 6px 6px 0;
+}
+
+.contenContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contentbuttoncontainer {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.greetingtext {
+  font-family: sans-serif,Arial ;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.cardcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 400px [col-start]);
+}
+
+.contentcard {
+  border: 1px solid rgb(238, 234, 234);
+  margin: 20px 0 20px 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.cardheader {
+  font-family: sans-serif,Arial ;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0 0 10px;
+}
+
+.cardsubheader {
+  font-family: sans-serif,Arial ;
+  font-weight: bold;
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.cardtop {
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  justify-content: space-between;
+}
+.cardcontainerbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.carddescription {
+  font-family: sans-serif,Arial ;
+  font-weight: bold;
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cardbuttonimg {
+  width: 25px;
+  height: 25px;
+}
+
+.delete-button-image {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.cardbutton {
+  border: none;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: 20px 15px 15px 15px;
+  border-radius: 6px;
+}
+
+.cardbuttontext {
+  color: white;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttoncontainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardcondition {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 40px;
+  
+}
+
+.formbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.formbox>input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 180px;
+  height: 20px;
+  border: 1px solid rgb(173, 173, 173);
+}
+
+.formbox>input:focus {
+  outline: none;
+}
+
+.dropdown {
+  margin-top: 10px;
+}
+
+.formtext {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.submitbutton {
+  width: 180px;
+  height: 30px;
+  border: 1px solid rgb(173, 173, 173) ;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+.todo-item-cards-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin-left: 250px;
+}
+
+.contentcard:hover{
+  background-color: rgba(212, 212, 212, 0.89);
+}
+
+.delete-button-image:hover {
+  background-color: rgb(250, 107, 82);
+}
